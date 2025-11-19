@@ -1,0 +1,46 @@
+Object-Oriented Programming and Design -
+
+This assignment carries a total of 150 marks. You can do this assignment in
+groups of 2-4 students. Assessment of each student would be done separately.
+The goal of this project is to design a cellular network simulator. The use of
+object-oriented features such as inheritance, data abstraction, data hiding and
+polymorphism is essential.
+
+1. Simulation Framework: Create a simulator framework where you have
+a total of three different types of classes – user device, cell tower and
+cellular core. Assume that the cellular core generates messages, depending
+on the type of protocol used, and the amount of overhead generated per
+100 messages imposes a limit on the number of user devices. Another limit
+imposed is the fact is the number of users that can be accommodated per
+frequency. You are required to specify how many users a single cell tower
+can accommodate, and identify the users who are occupying a specific
+frequency.
+
+2. 2G Communication 2G communication in cell towers uses packet switch-
+ing for data and circuit switching for voice. It also uses time division 
+multiple access, which can satisfy a maximum of 16 users per 200 kHz.
+Each user device connection creates a total of 5 messages each for data,
+and 15 messages for voice. Assuming that a total of 1 MHz is allocated,
+provide how many user devices can be supported, and the users occupying
+the first channel (first band of 200 kHz) within the 2G spectrum.
+
+3. 3G Communication 3G communication uses packet switching for both
+data and voice. It uses code-division multiple access, where instead of
+splitting across time, the data is mixed with a specific digital code. A
+single user device generates a total of 10 messages to be supported. This
+allows a total of 32 users per 200 kHz channel. Answer the same questions
+as above for this use case.
+
+4. 4G Communication 4G communication continued with the above, but
+moved to OFDM, which allowed splitting into even smaller sub-channels.
+Assume that a total of 30 users are assigned to 10 kHz, and that each user
+still takes 10 messages to be supported. Furthermore, it also allows use
+of up to 4 antennas in parallel,, where the same channels can be re-used.
+Again, answer the same questions as above. Also identify the number of
+cellular cores that need to be used to use the full potential.
+
+5. 5G Communication 5G communication in addition moved to supporting
+higher frequency channels of another 10 MHz at 1800 MHz. However, to
+support higher data rates, the 1800 MHz only supports a total of 30 users
+per 1 MHz. It also supports massive MIMO with a much larger number
+of antennas of up to 16. Answer the same questions as above.

@@ -1,0 +1,25 @@
+2G
+frequency_band: 900
+bandwidth: 5
+max_users: 80
+messages_per_user: 20
+
+3G
+frequency_band: 2100
+bandwidth: 10
+max_users: 100
+messages_per_user: 10
+
+4G
+frequency_band: 2600
+bandwidth: 20
+max_users: 100
+messages_per_user: 10
+num_cores: 4
+
+5G
+frequency_band: 3500
+bandwidth: 100
+max_users: 100
+messages_per_user: 10
+num_cores: 16
