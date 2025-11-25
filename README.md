@@ -4,10 +4,6 @@
 ## Project Description
 This project implements a cellular network simulator that models 2G, 3G, 4G, and 5G communication technologies. It demonstrates various object-oriented programming concepts including inheritance, polymorphism, data abstraction, templates, and exception handling.
 
-## Author Information
-[Saloni]
-[MT25081]
-
 ## Files Included
 1. `CellularNetwork.h`      - Header file with class declarations
 2. `CellularNetwork.cpp`    - Implementation of cellular network classes
@@ -181,3 +177,6 @@ The program has been tested with:
 1.  Use the debug build for better error messages
 2.  Check that basic I/O operations are working correctly
 3.  Verify system call compatibility on your platform
+
+## Team
+Saloni Narang,Suman Moond,Aastha Kalbhor

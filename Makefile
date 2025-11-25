@@ -36,6 +36,6 @@ $(TARGET): $(OBJS)
 
 # Clean up build files
 clean:
-	del $(subst /,\,$(OBJS)) $(TARGET).exe
+	cmd /c del $(subst /,\,$(OBJS)) $(TARGET).exe
 
 .PHONY: all clean
