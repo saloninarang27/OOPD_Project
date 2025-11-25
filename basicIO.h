@@ -1,5 +1,3 @@
-
-
 #ifndef BASIC_IO_H
 #define BASIC_IO_H
 
@@ -16,8 +14,5 @@ public:
     void errorint(int number);
     
 };
-
 extern basicIO io; 
-
-
 #endif
