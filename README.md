@@ -179,4 +179,4 @@ The program has been tested with:
 3.  Verify system call compatibility on your platform
 
 ## Team
-Saloni Narang,Suman Moond,Aastha Kalbhor
+Saloni, Suman Moond, Aastha Kalbhor
